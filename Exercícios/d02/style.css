@@ -13,16 +13,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
-body {
-    max-height: 100vh;
+html, body {
+    min-height: 100vh;
 }
 
 header {
     background-color: black;
     color: white;
-    height: 200px;
     text-align: center;
     padding: 50px;
 }
@@ -30,13 +30,12 @@ header {
 header > h1 {
     font-family: var(--fonte1);
     font-variant: small-caps;
-    font-size: 9em;
-    margin: 0px;
+    font-size: 9vw;
 }
 
 header > p {
     font-family: var(--fonteP);
-    font-size: 1.2em;
+    font-size: 1.2vw;
     margin-top: 20px;
 }
 
@@ -47,27 +46,29 @@ a {
 }
 
 a:hover {
-    font-size: 1.3em;
+    font-size: 1.3vw;
     transition: 100ms;
 }
 
 section {
     font-family: var(--fonte2);
-    font-size: 3em;
+    font-size: 3vw;
     margin-top: 40px;
     padding-left: 80px;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 
 .imagem {
     color: white;
     padding: 40px 0px 40px 40px;
     text-shadow: 1px 1px 0.5px black;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .imagem > p {
     background-color: rgba(172, 172, 172, 0.068);
-    width: 600px;
+    width: 43vw;
     padding-left: 40px ;
 }
 
@@ -86,4 +87,5 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 10px;
 }
