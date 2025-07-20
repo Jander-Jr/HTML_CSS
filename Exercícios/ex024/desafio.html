@@ -28,25 +28,34 @@
             background-color: rgb(44, 44, 44);
             color: white;
         }
+        .nota {
+            background-color: aquamarine;
+        }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+        <col class="area">
+        <col class="diciplina">
+        <col class="nota" span="2">
+        <col class="medias">
+    </colgroup>
         <thead>
             <tr>
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Diciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Diciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
             </tr>
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matemática</td>
                 <td>00</td>
                 <td>00</td>
@@ -71,11 +80,11 @@
                 <td>00</td>
             </tr>
             <tr class="media">
-                <th colspan="4">Média de exatas</th>
+                <th colspan="4" scope="row">Média de exatas</th>
                 <td>00</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
                 <td>História</td>
                 <td>00</td>
                 <td>00</td>
@@ -88,7 +97,7 @@
                 <td>00</td>
             </tr>
             <tr class="media">
-                <th colspan="4">Média de humanas</th>
+                <th colspan="4" scope="row">Média de humanas</th>
                 <td>00</td>
             </tr>
         </tbody>
