@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url(imegens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+#celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url(imegens/frame-iphone.png) no-repeat;
+    height: 627px;
+    width: 311px;
+    transform: translate(-50%, -50%);
+}
+
+#home {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 269px;
+    background: url(imegens/tela-home.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
