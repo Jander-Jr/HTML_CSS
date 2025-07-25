@@ -9,10 +9,11 @@
 html, body {
     height: 100vh;
     width: 100vw;
+    background-color: black;
 }
 
 body {
-    background: url(imegens/fundo-madeira.jpg) no-repeat top center;
+    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -26,7 +27,7 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: url(imegens/frame-iphone.png) no-repeat;
+    background: url(imagens/frame-iphone.png) no-repeat;
     height: 627px;
     width: 311px;
     transform: translate(-50%, -50%);
@@ -38,7 +39,7 @@ main {
     left: 22px;
     height: 472px;
     width: 269px;
-    background: url(imegens/tela-home.jpg) no-repeat;
+    background: black;
     background-size: cover;
     background-attachment: fixed;
 }
